@@ -1,0 +1,81 @@
+<style>
+  .main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background: hsla(211, 96%, 62%, 1);
+
+    background: linear-gradient(
+      90deg,
+      hsla(211, 96%, 62%, 1) 0%,
+      hsla(295, 94%, 76%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(211, 96%, 62%, 1) 0%,
+      hsla(295, 94%, 76%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(211, 96%, 62%, 1) 0%,
+      hsla(295, 94%, 76%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1 );
+  }
+
+  .title {
+    font-size: 85px;
+  }
+
+  .subtitle {
+    font-size: 25px;
+    padding-top: 10;
+  }
+
+  .intro-text {
+    width: 100%;
+    text-align: center;
+    margin: 80px 10px 150px 50px;
+  }
+
+  .buttonContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .landingbutton {
+    width: 150px;
+    height: 55px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .title {
+      font-size: 60px;
+    }
+
+    .landingbutton {
+      width: 150px;
+      height: 55px;
+    }
+  }
+</style>
+<div class="main">
+  <Container>
+    <Row>
+      <div class="intro-text">
+        <div>
+          <h1 class="title">Welcome to Tutor Finder</h1>
+          <p class="subtitle">One place for all Student and Teachers.</p>
+        </div>
+      </div>
+    </Row>
+  </Container>
+</div>
